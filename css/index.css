@@ -1,0 +1,757 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+ul{
+    list-style: none;
+}
+span{
+    color: red;
+}
+.clearfix{
+    height: 0px;
+    clear: both;
+}
+.top{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: linear-gradient(to bottom, #d1d1d1, #f4f4f4, #f5f5f5);
+}
+.topleft{
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+    margin-left: 50px;
+    float: left;
+}
+header .topright{
+    margin-right: 50px;
+    float: right;
+    font-size: 12px;
+}
+.topright li{
+    color:  #555555;
+    margin-right: 10px;
+    display: inline-block;
+}
+.topright .icon{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    background:url("../images/t_arrow.gif");
+}
+.topright .icon1{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background:url("../images/sh1.png");
+}
+.topright .icon2{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background:url("../images/sh2.png");
+}
+.topright .icon3{
+    vertical-align: middle;
+    display: inline-block;
+    width: 12px;
+    height: 16px;
+    background:url("../images/s_tel.png");
+}
+header .bottom{
+    position: relative;
+    padding-left: 335px;
+   margin: 50px 50px;
+    width: 886px;
+    height: 70px;
+    background: url("../images/loginlogo.jpg") no-repeat;
+}
+header .bottom .text{
+    width: 400px;
+    height:40px ;
+    border: 2px solid red;
+     border-right: none;
+}
+header .bottom .submit{
+    width: 100px;
+    height:44px ;
+    border: 2px solid red;
+    background: red;
+    color: white;
+}
+
+header .bottom li{
+    display: inline-block;
+   margin-right: 10px;
+    font-size: 15px;
+}
+header .bottom .shopcar{
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    right: 40px;
+    width: 122px;
+    height: 40px;
+    line-height: 40px;
+    background: #f6f6f6;
+    border: 1px #d9d9d9 solid;
+}
+header .bottom .shopcar span{
+margin-left: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background: url("../images/car.png");
+}
+header section{
+    width: 1200px;
+    margin: 0 auto;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+section .menunav{
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #ff4e00;
+}
+section .menunav li{
+    font-weight: 700;
+    line-height: 45px;
+    margin-right: 40px;
+    display: inline-block;
+}
+section .menunav li a{
+    font-size: 16px;
+}
+section .menunav .first{
+    font-weight: normal;
+    width: 220px;
+    height: 45px;
+    background: #ff3c3c;
+    color: white;
+    line-height: 45px;
+    text-indent: 35px;
+    margin-right: 0px;
+}
+section .menunav .right{
+    width: 115px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+section .menunav .right span{
+    width: 115px;
+    height: 30px;
+    display: inline-block;
+    background: url("../images/phone.png");
+}
+
+/*内容导航*/
+
+/*内容 左边*/
+section .menu .left{
+    float: left;
+    position: relative;
+    height: 400px;
+    width: 220px;
+    background:#b01d1d ;
+    text-align: left;
+
+}
+section .menu .left li{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    transition: translateX 1s linear 0s ;
+}
+section .menu .left li a{
+    font-size: 14px;
+    color: white;
+}
+section .menu .left .icon1{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav1.png");
+}
+section .menu .left .icon2{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav2.png");
+}
+section .menu .left .icon3{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav3.png");
+}
+section .menu .left .icon4{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav4.png");
+}
+section .menu .left .icon5{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav5.png");
+}
+section .menu .left .icon6{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav6.png");
+}
+section .menu .left .icon7{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav7.png");
+}
+section .menu .left .icon8{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 18px;
+    height: 16px;
+    background: url("../images/nav8.png");
+}
+section .menu .left .icon9{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 12px;
+    height: 16px;
+    background: url("../images/nav9.png");
+}
+section .menu .left .icon10{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/nav10.png");
+}
+section .menu .left .iconright{
+    color: white;
+    display: inline-block;
+    width: 16px;
+    height: 40px;
+   line-height: 40px;
+    position: absolute;
+    right: 0px;
+}
+/*动画*/
+@keyframes run {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(5px);
+    }
+}
+section .menu .left li:hover{
+    transform: translateX(15px);
+}
+/*中间*/
+section .menu .center{
+position: relative;
+    float: left;
+    margin-left: 5px;
+}
+section .menu .center ul{
+    position: absolute;
+    bottom: 10px;
+    left: 312px;
+}
+section .menu .center li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ccc0b3;
+    font-weight: 700;
+    font-size: 14px;
+}
+section .menu .center li:hover{
+     background: red;
+ }
+ section .menu .center li a:hover, li {
+    color: white;
+}
+section .menu .center .icon1{
+    background: url("../images/b_left.png");
+    display: block;
+    width: 32px;
+    height: 60px;
+    position: absolute;
+   top: 176px;
+}
+section .menu .center .icon2{
+    background: url("../images/b_right.png");
+    display: block;
+    width: 32px;
+    height: 60px;
+    position: absolute;
+    left: 668px;
+    top: 176px;
+}
+section .menu .right{
+    float: right;
+    width: 206px;
+    height: 399px;
+    border: 1px solid #d9d9d9;
+}
+section .menu .right .new{
+    position: relative;
+    height: 39px;
+    font-size: 14px;
+    border-bottom: 1px #d9d9d9 dashed;
+}
+section .menu .right .new a{
+    position: absolute;
+     top: 10px;
+    right: 0px;
+    color: #888888;
+}
+section .menu .right h3{
+    width: 32px;
+    height: 39px;
+    line-height: 39px;
+    color: #3e3e3e;
+    font-size: 16px;
+    margin-left: 10px;
+}
+section .menu .right span{
+    color: #3e3e3e;
+}
+section .menu .right li{
+    margin-top: 10px;
+}
+section .menu .right li a{
+    color: #888888;
+}
+section .menu .right .bottom h3{
+    text-indent: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 206px;
+    height: 41px;
+    border-bottom: 1px #d9d9d9 dashed;
+    border-top: 1px solid #d9d9d9;
+}
+section .menu .right .bottom p{
+    text-indent: 10px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #888888;
+}
+section .menu .right a:hover{
+    color: red;
+}
+section .menu .right .bottom img{
+ margin-left: 10px;
+}
+/*图片列表*/
+section .pclist .left{
+    background: #d8eefc;
+    margin-right: 8px;
+    float: left;
+    margin-top: 20px;
+    width: 211px;
+    height: 230px;
+}
+section .pclist .left img{
+   margin-left: 12px;
+    margin-top: 10px;
+}
+section .pclist .left .f1{
+    display: inline-block;
+    width: 50px;
+    height: 19px;
+    color: #ff4e00;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left:60px;
+    margin-top:9px;
+
+}
+section .pclist .left .fr{
+    display: inline-block;
+    width: 50px;
+    height: 19px;
+    color: #ff4e00;
+    font-size: 12px;
+    margin-left:20px;
+    margin-top:3px;
+}
+section .pclist .right{
+    float: left;
+}
+section .pclist .right .directionleft{
+    width: 32px;
+    height: 60px;
+    position: absolute;
+    top: 87px;
+    left: 0px;
+    background: url("../images/b_left.png");
+}
+section .pclist .right .directionright{
+    width: 32px;
+    height: 60px;
+    position: absolute;
+    top: 87px;
+    right: 0px;
+    background: url("../images/b_right.png");
+}
+section .pclist .right li{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    width: 239.5px;
+    height: 228px;
+    border: 1px solid #d9d9d9;
+}
+section .pclist .right h2{
+    height: 20px;
+    line-height: 20px;
+    color: #555555;
+    font-size: 16px;
+    text-align: center;
+}
+section .pclist .right p{
+    height: 20px;
+    line-height: 20px;
+    color: #555555;
+    font-size: 16px;
+    text-align: center;
+}
+section .pclist .right  a:hover{
+    color: black;
+    text-decoration:underline
+}
+section .pclist .right img{
+    margin: 15px 10px 0px 15px;
+}
+section .pclist .right .f2{
+    display: inline-block;
+    width: 50px;
+    height: 19px;
+    color: #ff4e00;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left:80px;
+    margin-top:5px;
+}
+section .pclist .right .sise{
+    display: inline-block;
+    width: 50px;
+    height: 19px;
+    color:#555555;
+    font-size: 12px;
+    margin-left:10px;
+    margin-top:3px;
+}
+section .pclist .right .hot{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../images/hot.png");
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+/*动画*/
+section .pclist  img:hover{
+    transform: scale(1.1);
+}
+section .pclist  img{
+    transition: all 1s ;
+}
+/*广告*/
+section .banner{
+    margin: 20px 0px;
+}
+/*进口生鲜*/
+section .import{
+    height: 41px;
+    position: relative;
+    border-bottom: 2px #ff4e00 solid;
+}
+section .import span{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    color: white;
+}
+section .import span:nth-child(3){
+    color: #ff4e00;
+text-indent: 33px;
+    font-size: 18px;
+    line-height: 20px;
+}
+section .import ul{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+section .import li{
+    display: inline-block;
+}
+section .import li a{
+margin-right: 22px;
+    color: #555555;
+}
+section .import li a:hover{
+    color: red;
+}
+section .importcontent{
+    margin-bottom: 20px;
+}
+section .importcontent .left{
+    float: left;
+    position: relative;
+    width: 211px;
+    height: 442px;
+    background: #e4f7ec;
+}
+section .importcontent .left .icon1{
+    position: absolute;
+    left: 0px;
+    top: 123px;
+    width: 20px;
+    height: 40px;
+    background: url("../images/s_left.png");
+}
+section .importcontent  .left .icon2{
+    position: absolute;
+    right: 0px;
+    top: 123px;
+    width: 20px;
+    height: 40px;
+    background: url("../images/s_right.png");
+}
+section .importcontent .fresh li{
+    height: 30px;
+    border-bottom:1px #d9d9d9 dashed ;
+}
+section .importcontent .fresh a{
+    margin-left: 20px;
+    margin-right: 12px;
+}
+/*中部*/
+section .importcontent .center{
+    float: left;
+}
+section .importcontent .center ul{
+    font-size: 0px;
+}
+section .importcontent .center li span{
+    font-size: 16px;
+}
+section .importcontent .center li{
+    display: inline-block;
+    width: 243px;
+    height: 221px;
+    border: 1px #d9d9d9 solid;
+    text-align: center;
+    border-right: none;
+}
+section .importcontent .center li p {
+    display: inline-block;
+    width: 213px;
+    height: 40px;
+}
+section .importcontent .center li p a{
+    line-height: 40px;
+    font-size: 14px;
+    color:  #555555;
+}
+section .importcontent .center li p a:hover{
+    color: red;
+}
+section .importcontent .center img{
+    transition: all 0.8s;
+}
+section .importcontent .center img:hover{
+    transform: scale(1.05);
+}
+section .importcontent .right{
+    font-size: 0px;
+}
+/*个人美妆*/
+section .importcontent  #beautiful{
+    background: #feecea;
+}
+/*孕妈必备*/
+section .importcontent #beautiful2{
+    background: #feecea;
+}
+/*底部*/
+section .btm{
+    margin: 20px auto;
+    padding: 20px;
+    width: 1200px;
+}
+section .btm .bc{
+    margin: 20px auto;
+    width: 1000px;
+}
+section .btm  .bc li{
+    display: inline-block;
+    margin-right: 22px;
+}
+section .btm   .bc li div{
+    text-align: center;
+    width: 210px;
+    color: #555555;
+    font-size: 14px;
+}
+section .btm  .bc li div h4{
+    font-size: 16px;
+   height: 20px;
+    width: 210px;
+    margin: 5px auto;
+}
+section .btm .nav{
+    width: 100%;
+    padding: 0 50px;
+    margin: 50px 0px;
+}
+section .btm .nav a:hover{
+    color: red;
+}
+section .btm .nav dl{
+    width: 125px;
+    height: 165px;
+    float: left;
+    display: inline;
+    margin-right: 30px;
+}
+section .btm .nav dt{
+    margin-bottom: 10px;
+}
+section .btm .nav dt a{
+    height: 30px;
+    line-height: 30px;
+    color: #3e3e3e;
+    font-size: 16px;
+}
+section .btm .nav dd a{
+    height: 24px;
+    line-height: 24px;
+    color: #888888;
+}
+section .btm .pc{
+    display: inline-block;
+    float: left;
+    height: 179px;
+    width: 140px;
+}
+section .btm .pc img:nth-child(1){
+    margin-bottom: 5px;
+}
+section .btm .right{
+    display: inline-block;
+    width: 133px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+section .btm .right h3{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+section .btm .right h3 a{
+    font-size: 14px;
+    height: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+section .btm .right a,h5{
+    color: #888888;
+    font-weight: normal;
+    margin-bottom: 5px;
+
+}
+section .btm .right .icon1{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../images/b_sh_1.png);
+}
+section .btm .right .icon2{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../images/b_sh_2.png);
+}
+footer section{
+    width: 1200px;
+margin: 0 auto;
+}
+footer .box{
+    position: relative;
+    width: 1200px;
+    /*height: 159px;*/
+    margin:30px auto;
+    border-top: 1px #eaeaea solid;
+}
+footer .box .ct{
+    font-size: 12px;
+    width: 1100px;
+    overflow: hidden;
+    color: #999999;
+    text-align: center;
+    margin: 50px auto;
+}
+footer .box .ct ul{
+    position: absolute;
+    left: 130px;
+    font-size: 0px;
+    width: 897px;
+    margin-top: 30px;
+}
+footer .box .ct li{
+    width: 100px;
+    margin-right: 10px;
+    border: 1px #d9d9d9 solid;
+    display: inline-block;
+}
+footer .bc img{
+    transition: all 1s linear;
+}
+footer .bc img:hover{
+    transform: rotate(90deg);
+}

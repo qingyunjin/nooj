@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+    height: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #e82a1e;
+}
+header{
+    width: 100%;
+    height: 88px;
+    border-bottom: 1px #cccccc solid;
+}
+header div{
+    position: relative;
+    width: 1200px;
+    height: 55px;
+    margin: 15px auto;
+}
+header div p{
+    position: absolute;
+    top: 10px;
+    right: 131px;
+    display: inline-block;
+    width: 170px;
+    height: 10px;
+    font-size: 12px;color: #888888;
+}
+header div p span{
+    color: blue;
+    font-size: 13px;
+}
+header div .help{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    width: 100px;
+    height: 27px;
+    border: #cccccc 1px solid;
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+}
+header div .help .icon1{
+    top: 5px;
+    right: 79px;
+    position: absolute;
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url("../images/runbun.png");
+}
+header div .help .icon2{
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url("../images/turnb.png") no-repeat right center;
+}
+header div  span:hover{
+    color: #e82a1e;
+    text-decoration: none;
+}
+section .login{
+    width: 980px;
+    height: 376px;
+    margin: 20px auto;
+}
+section .login img{
+    float: left;
+}
+section .login .people{
+    float: right;
+    margin-top: 10px;
+    width: 330px;
+    height: 376px;
+}
+section .login .people .name{
+    font-size: 16px;
+    width: 330px;
+    height: 30px;
+    line-height: 30px;
+}
+section .login .people .name a{
+color: #2f27ff;
+   margin-left:158px;
+    font-size: 14px;
+}
+section .login .people .item{
+    margin-top: 5px;
+    position: relative;
+    width: 330px;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+
+}
+section .login .people .item img{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+
+}
+section .login .people .item input{
+    text-indent: 50px;
+    font-size: 16px;
+    width: 330px;
+    height: 54px;
+    border: #cccccc 1px solid;
+    outline: none;
+}
+section .login .people .item1{
+    position: relative;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #888888;
+    width: 330px;
+    height: 50px;
+    line-height: 50px;
+  text-indent: 20px;
+}
+section .login .people .item1 input{
+  position: absolute;
+    top: 20px;
+    left: 10px;
+}
+section .login .people .item1 a{
+    font-size: 12px;
+   margin-left: 192px;
+    color: #555555;
+}
+section .login .people .item1 a:hover{
+    color: #555555;
+}
+section .login .people .item2 input{
+    font-size: 18px;
+    width: 330px;
+    height: 52px;
+    background: #ff3c3c;
+    color: white;
+    border: none;
+}
+section .login .people .item3{
+    width: 330px;
+    height: 47px;
+    font-size: 14px;
+    color: #888888;
+   padding-top: 20px;
+}
+section .login .people .item4{
+    position: relative;
+    font-size: 12px;
+    color: #888888;
+    line-height: 35px;
+}
+section .login .people .item4 span{
+    margin-left: 228px;
+}
+section .login .people .item4 .one{
+    position: absolute;
+    right: 3px;
+    top: 12px;
+}
+section .login .people .item4 ul{
+    position: absolute;
+    top: 0px;
+}
+section .login .people .item4 .icon1{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/qqf.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon1:hover{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/qqt.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon2{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/wbf.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon2:hover{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/wbt.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon3{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/zhif.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon3:hover{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/zhit.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon4{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/wxf.png") ;
+    background-size: cover;
+}
+section .login .people .item4 .icon4:hover{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/wxt.png") ;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    color: #555555;
+    font-size: 12px;
+    width: 980px;
+    height: 44px;
+    margin: 100px auto;
+}

@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+ul{
+    list-style: none;
+}
+span{
+    color: red;
+}
+.clearfix{
+    height: 0px;
+    clear: both;
+}
+.top{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: linear-gradient(to bottom, #d1d1d1, #f4f4f4, #f5f5f5);
+}
+.topleft{
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+    margin-left: 50px;
+    float: left;
+}
+header .topright{
+    margin-right: 50px;
+    float: right;
+    font-size: 12px;
+}
+.topright li{
+    color:  #555555;
+    margin-right: 10px;
+    display: inline-block;
+}
+.topright .icon{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    background:url("../images/t_arrow.gif");
+}
+.topright .icon1{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background:url("../images/sh1.png");
+}
+.topright .icon2{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background:url("../images/sh2.png");
+}
+.topright .icon3{
+    vertical-align: middle;
+    display: inline-block;
+    width: 12px;
+    height: 16px;
+    background:url("../images/s_tel.png");
+}
+header .bottom{
+    position: relative;
+    padding-left: 335px;
+    margin: 50px 50px;
+    width: 886px;
+    height: 70px;
+    background: url("../images/loginlogo.jpg") no-repeat;
+}
+header .bottom .text{
+    width: 400px;
+    height:40px ;
+    border: 2px solid red;
+    border-right: none;
+}
+header .bottom .submit{
+    width: 100px;
+    height:44px ;
+    border: 2px solid red;
+    background: red;
+    color: white;
+}
+
+header .bottom li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+header .bottom .shopcar{
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    right: 40px;
+    width: 122px;
+    height: 40px;
+    line-height: 40px;
+    background: #f6f6f6;
+    border: 1px #d9d9d9 solid;
+}
+header .bottom .shopcar span{
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background: url("../images/car.png");
+}
+header section{
+    width: 1200px;
+    margin: 0 auto;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+section .menunav{
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #ff4e00;
+}
+section .menunav li{
+    font-weight: 700;
+    line-height: 45px;
+    margin-right: 40px;
+    display: inline-block;
+}
+section .menunav li a{
+    font-size: 16px;
+}
+section .menunav .first{
+    font-weight: normal;
+    width: 220px;
+    height: 45px;
+    background: #ff3c3c;
+    color: white;
+    line-height: 45px;
+    text-indent: 35px;
+    margin-right: 0px;
+}
+section .menunav .right{
+    width: 115px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+section .menunav .right span{
+    width: 115px;
+    height: 30px;
+    display: inline-block;
+    background: url("../images/phone.png");
+}
+/*底部*/
+section .btm{
+    margin: 20px auto;
+    padding: 20px;
+    width: 1200px;
+}
+section .btm .bc{
+    margin: 20px auto;
+    width: 1000px;
+}
+section .btm  .bc li{
+    display: inline-block;
+    margin-right: 22px;
+}
+section .btm   .bc li div{
+    text-align: center;
+    width: 210px;
+    color: #555555;
+    font-size: 14px;
+}
+section .btm  .bc li div h4{
+    font-size: 16px;
+    height: 20px;
+    width: 210px;
+    margin: 5px auto;
+}
+section .btm .nav{
+    width: 100%;
+    padding: 0 50px;
+    margin: 50px 0px;
+}
+section .btm .nav a:hover{
+    color: red;
+}
+section .btm .nav dl{
+    width: 125px;
+    height: 165px;
+    float: left;
+    display: inline;
+    margin-right: 30px;
+}
+section .btm .nav dt{
+    margin-bottom: 10px;
+}
+section .btm .nav dt a{
+    height: 30px;
+    line-height: 30px;
+    color: #3e3e3e;
+    font-size: 16px;
+}
+section .btm .nav dd a{
+    height: 24px;
+    line-height: 24px;
+    color: #888888;
+}
+section .btm .pc{
+    display: inline-block;
+    float: left;
+    height: 179px;
+    width: 140px;
+}
+section .btm .pc img:nth-child(1){
+    margin-bottom: 5px;
+}
+section .btm .right{
+    display: inline-block;
+    width: 133px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+section .btm .right h3{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+section .btm .right h3 a{
+    font-size: 14px;
+    height: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+section .btm .right a,h5{
+    color: #888888;
+    font-weight: normal;
+    margin-bottom: 5px;
+
+}
+section .btm .right .icon1{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../images/b_sh_1.png);
+}
+section .btm .right .icon2{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../images/b_sh_2.png);
+}
+footer section{
+    width: 1200px;
+    margin: 0 auto;
+}
+footer .box{
+    position: relative;
+    width: 1200px;
+    /*height: 159px;*/
+    margin:30px auto;
+    border-top: 1px #eaeaea solid;
+}
+footer .box .ct{
+    font-size: 12px;
+    width: 1100px;
+    overflow: hidden;
+    color: #999999;
+    text-align: center;
+    margin: 50px auto;
+}
+footer .box .ct ul{
+    position: absolute;
+    left: 130px;
+    font-size: 0px;
+    width: 897px;
+    margin-top: 30px;
+}
+footer .box .ct li{
+    width: 100px;
+    margin-right: 10px;
+    border: 1px #d9d9d9 solid;
+    display: inline-block;
+}
+footer .bc img{
+    transition: all 1s linear;
+}
+footer .bc img:hover{
+    transform: rotate(90deg);
+}
